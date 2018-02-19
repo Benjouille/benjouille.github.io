@@ -1,0 +1,103 @@
+/* Importing layouts */
+@import url("components/navbar.css");
+@import url("components/etudes.css");
+@import url("components/experiences.css");
+
+h2{color: blue;
+font-family:'Montserrat', sans-serif;
+font size: 40px;}
+
+body{
+  background: rgb(245,245,245);
+  color: #000000;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+h1{
+  font-family: 'Montserrat bold', sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+h2 {
+  font-family: 'Montserrat', sans sans-serif ;
+  color: #003366;
+  font-weight: bold;
+  font-size: 20px;
+}
+a {
+  color: grey;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+#banner{
+	background-image: url('https://i.ytimg.com/vi/utjR_j-nTzw/maxresdefault.jpg');
+	padding:150px 10px;
+	background-size: cover !important;
+	background-position: center;
+	text-align: center;
+	align-items: center;
+	opacity: 0.8;
+	margin-top: 60px;
+	height: 100vh;
+	justify-content: center;
+}
+
+#banner h1{
+	color: white;
+	margin-bottom: 20px;
+}
+
+#banner p{
+	color: white;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.card2 {
+	padding: 60px 0px;
+	text-align: center;
+	margin: 20px;
+
+}
+
+#banner2{
+	background-image: url(../images/sky.jpeg);
+	padding:50px 10px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+#banner2 h1{
+	color: black;
+}
+
+#banner2 p{
+	color: black;
+	font-size: 50px;
+	font-style: strong;
+}
+#footer {
+	background-color: rgb(15,15,15);
+	color: white;
+	padding: 25px;
+	text-align: center;
+}
+#footer a{
+	color: white;
+	font size: 30px;
+	transition: all 0.3s ease;
+}
+
+#footer li{
+	padding: 10px;
+}
+
+#footer a:hover{
+	color : #C03134;
+	font-size: 40px;
+}
